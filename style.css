@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section .container {
+  text-align: center;
+}
+
+section {
+padding: 24px 0;
+}
+
+body {
+  background-image: url(./assets/pergaminho.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;              
+}
+
+.character {
+  font-family: 'Magic School One', sans-serif;
+  font-family: 'Magic School Two', sans-serif;
+  font-size: 30px;
+}
+
+header {
+  background-color: black;
+  color: aliceblue;
+  padding: 25px 0;
+  font-family: 'Magic School One', sans-serif;
+  font-family: 'Magic School Two', sans-serif;
+  font-size: 30px;
+  font-weight:lighter;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 30px;
+}
+
+header nav li a {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight:lighter;
+}
+
+header .container,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+section h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+section h3,
+section h2,
+section p {
+  color: black;
+  font-weight:lighter;
+  font-family: 'HarryPotter7', sans-serif;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+section p {
+  font-size: 14px;
+}
+
+section img {
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.symbol {
+  max-width:300px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 400px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: 'HarryPotter7', sans-serif;;
+  background-color: black;
+  color: aliceblue;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-metods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+#thecontact .container {
+  display: block;
+}
+
+.communication {
+  display: flex;
+  justify-content: space-between;
+}
+
+section h3 {
+  margin-bottom: 15px;
+}
+
+form button {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: grey;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: gray;
+}
+
+footer {
+  background-color: black;
+  color:aliceblue;
+  padding: 10px 0;
+}
