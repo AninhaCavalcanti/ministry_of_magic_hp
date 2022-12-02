@@ -101,7 +101,7 @@ section img {
 
 form input,
 form textarea,
-form button{
+form button {
   display: block;
   width: 400px;
   margin-bottom: 5px;
